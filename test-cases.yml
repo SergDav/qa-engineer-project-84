@@ -12,4 +12,42 @@
     - Нажать кнопку "Корзина"
   expected-result: |
     Добавленный товар отображается в корзине
+
+- summary: | 
+    Проверка удаления товара из корзины   
+  requirement: | 
+    После удаления выбранный товар не должен отображаться в корзине 
+  prerequisites: |
+    В корзине уже должен быть добавленный товар 
+  test-data: |
+    empty 
+  steps:
+    - Нажать кнопку "Корзина"
+    - Нажать кнопку "Удалить" у выбранного товара 
+  expected-result: |
+    Выбранный товар не отображается в корзине
     
+- summary: |
+     
+  requirement: | 
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+    
+  expected-result: |
+
+  - summary: |
+     
+  requirement: | 
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+    
+  expected-result: |
+
