@@ -1,7 +1,7 @@
 ---
 - summary: |
-    
-  status: 
+    Проверка добавления товара в корзину    
+  status: pass
 
 - summary: |
     
