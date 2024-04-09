@@ -63,7 +63,7 @@
   test-data: |
     Empty
   steps:
-   - Выбрать чекбокс необходимых брендов (например Huawei, L'Oreal Paris, Infinix)
+   - Выбрать чекбоксы необходимых брендов (например Huawei, L'Oreal Paris, Infinix)
   expected-result: |
     Пользователь видит на странице товары выбранных им брендов
     
