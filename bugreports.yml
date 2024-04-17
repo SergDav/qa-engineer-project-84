@@ -1,5 +1,4 @@
-- summary: |
-    
+- summary: |   
   environment: |
     Firefox Browser 125.0.1 (64-разрядный)
     ОС Windows 10 Pro 22H2
@@ -10,13 +9,13 @@
   actual-result: |
 
   - summary: |
-  Не отображается картинка флага языка 
-  environment: |
-    Firefox Browser 125.0.1 (64-разрядный)
-    ОС Windows 11 Pro 23H2
-  steps-to-reproduce: |
-    1. Нажать на select выбора языка на главной странице сайта 
-  expected-result: |
-    Картинка флага языка отображается при раскрытии select выбора языка 
-  actual-result: |
-    Картинка не отображается
+      Не отображается картинка флага языка 
+    environment: |
+      Firefox Browser 125.0.1 (64-разрядный)
+      ОС Windows 11 Pro 23H2
+    steps-to-reproduce: |
+      1. Нажать на select выбора языка на главной странице сайта 
+    expected-result: |
+      Картинка флага языка отображается при раскрытии select выбора языка 
+    actual-result: |
+      Картинка не отображается
