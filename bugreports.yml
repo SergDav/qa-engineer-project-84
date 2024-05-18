@@ -13,6 +13,20 @@
     Ничего не происходит
     
 - summary: |
+    Безуспешное оформление заказа (ошибка 500 Internal Server Error)
+  environment: |
+    Firefox Browser 126.0 (64-разрядный)
+    ОС Windows 10 Pro 22H2
+  steps-to-reproduce: |
+    1. Добавить товар в корзину
+    2. Нажать кнопку оформления заказа "Checkout"
+    3. Во всплывающем окне "Order placed successfully" нажать на кнопку "Close"
+  expected-result: |
+    Появляется уведомление об успешном оформлении заказа и корзина очищается
+  actual-result: |
+    Возникает ошибка 500 Internal Server Error (Devtools) и в корзине остаются товары
+    
+- summary: |
     Не закрывается окно оформления заказа при нажатии на крестик
   environment: |
     Firefox Browser 126.0 (64-разрядный)
