@@ -13,7 +13,7 @@
     Ничего не происходит
     
 - summary: |
-    Безуспешное оформление заказа (ошибка 500 Internal Server Error)
+    Ошибка 500 при оформлении заказа
   environment: |
     Firefox Browser 126.0 (64-разрядный)
     ОС Windows 10 Pro 22H2
